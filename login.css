@@ -1,0 +1,113 @@
+      
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-image: url('immagine01.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #1c1e21;
+   
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.all {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.contenitore {
+    flex: 0 0 40%;
+    text-align: center;
+}
+
+.contenitore .contenitore_interno {
+    background-color: #ffffff98;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.185), 0 8px 16px rgba(0, 0, 0, 0.192);
+    margin-bottom: 50px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.contenitore .contenitore_interno input {
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+    border: 1px solid #dddfe298;
+    color: #1d2129;
+    padding: 0 8px;
+    outline: none;
+}
+
+
+.contenitore .contenitore_interno .bottone_login {
+    background-color: #fa0a0ac9;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.contenitore .contenitore_interno .bottone_login:hover {
+    background-color: #f4550c;
+}
+
+.contenitore .contenitore_interno .div .a
+{
+    color:#1877f2;
+}
+
+
+p{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 20px;
+}
+p.nome_sito{
+    font-family:monospace;
+    background-color: #ffffff00;
+    border: none;
+    border-radius: 6px;
+    font-size: 50px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #0000ff;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgb(255, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    
+}
+.domanda{
+    font-size: 20px;
+}

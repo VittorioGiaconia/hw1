@@ -1,0 +1,131 @@
+
+
+img.copertina{
+    width: 100%;
+    height: 400px;
+    
+}
+
+
+#library img{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+
+#library {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+
+#library .new1{
+    margin: 10px;
+    border: 2px solid slategray;
+    padding: 5px;
+    max-width: 400px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 20px;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 20px;
+   
+}
+a{
+    
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+a:hover{
+    background-color: rgba(206, 2, 2, 0.726);
+}
+
+
+a.logout{
+    display: block;
+    position: absolute;
+    left:0px;
+    top: 320px
+}
+
+#primo_form input,#primo_form{
+    
+    justify-content: space-around;
+    align-items: center;
+    font-family: monospace;
+    margin-left: 50px;
+
+    background: rgba(0, 0, 0, 1);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgba(255, 251, 251, 0.5);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border-radius: 60px;
+
+}
+
+#primo_form input#oggetto_ricercato{
+    margin-left: 400px;
+}
+
+#library .mipiace{
+    width: 30px;
+    height: 30px;
+    
+}
+
+footer{
+    background-color: rgba(194, 23, 23, 0.8);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+}
+
+.nome_username{
+    display: block;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.titolo_news{
+    display: block;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight:lighter;
+}
